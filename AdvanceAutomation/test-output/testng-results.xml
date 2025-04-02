@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="17" passed="4" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Campaign Banner_6402 added successfully]]>
+    </line>
+    <line>
+      <![CDATA[campaignBanner_1960successfully added]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-04-02T00:06:48 IST" name="Suite" finished-at="2025-04-02T00:08:10 IST" duration-ms="81497">
+    <groups>
+      <group name="regresssion">
+        <method signature="CreateCampaign.CreateCampaignTest()[pri:0, instance:campaign_test.CreateCampaign@c8c12ac]" name="CreateCampaignTest" class="campaign_test.CreateCampaign"/>
+        <method signature="CreateCampaign.CreateCampaignWithDateTest()[pri:0, instance:campaign_test.CreateCampaign@c8c12ac]" name="CreateCampaignWithDateTest" class="campaign_test.CreateCampaign"/>
+        <method signature="CreateContact.CreateContactTest()[pri:0, instance:contact_test.CreateContact@4550bb58]" name="CreateContactTest" class="contact_test.CreateContact"/>
+      </group> <!-- regresssion -->
+      <group name="integrationtest">
+        <method signature="AddProduct.AddProductTest()[pri:0, instance:product_test.AddProduct@6adbc9d]" name="AddProductTest" class="product_test.AddProduct"/>
+      </group> <!-- integrationtest -->
+    </groups>
+    <test started-at="2025-04-02T00:06:48 IST" name="Test" finished-at="2025-04-02T00:08:10 IST" duration-ms="81497">
+      <class name="product_test.AddProduct">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:product_test.AddProduct@6adbc9d]" started-at="2025-04-02T00:07:22 IST" name="beforeClass" finished-at="2025-04-02T00:07:23 IST" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:product_test.AddProduct@6adbc9d]" started-at="2025-04-02T00:07:23 IST" name="beforeMethod" finished-at="2025-04-02T00:07:23 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="AddProductTest()[pri:0, instance:product_test.AddProduct@6adbc9d]" started-at="2025-04-02T00:07:23 IST" name="AddProductTest" finished-at="2025-04-02T00:07:38 IST" duration-ms="14626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:product_test.AddProduct@6adbc9d]" started-at="2025-04-02T00:07:38 IST" name="afterMethod" finished-at="2025-04-02T00:07:41 IST" duration-ms="3170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:product_test.AddProduct@6adbc9d]" started-at="2025-04-02T00:07:41 IST" name="afterClass" finished-at="2025-04-02T00:07:41 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- product_test.AddProduct -->
+      <class name="login.Login">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:login.Login@131774fe]" started-at="2025-04-02T00:06:48 IST" name="beforeSuite" finished-at="2025-04-02T00:06:48 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:login.Login@131774fe]" started-at="2025-04-02T00:06:48 IST" name="beforeTest" finished-at="2025-04-02T00:06:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:login.Login@131774fe]" started-at="2025-04-02T00:06:48 IST" name="beforeClass" finished-at="2025-04-02T00:06:49 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:login.Login@131774fe]" started-at="2025-04-02T00:06:49 IST" name="beforeMethod" finished-at="2025-04-02T00:06:50 IST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginTest()[pri:0, instance:login.Login@131774fe]" started-at="2025-04-02T00:06:50 IST" name="LoginTest" finished-at="2025-04-02T00:06:52 IST" duration-ms="2088" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Validation is fail expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Validation is fail expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at login.Login.LoginTest(Login.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:login.Login@131774fe]" started-at="2025-04-02T00:06:52 IST" name="afterMethod" finished-at="2025-04-02T00:06:55 IST" duration-ms="3205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:login.Login@131774fe]" started-at="2025-04-02T00:06:55 IST" name="afterClass" finished-at="2025-04-02T00:06:56 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:login.Login@131774fe]" started-at="2025-04-02T00:08:10 IST" name="afterTest" finished-at="2025-04-02T00:08:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:login.Login@131774fe]" started-at="2025-04-02T00:08:10 IST" name="afterSuite" finished-at="2025-04-02T00:08:10 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- login.Login -->
+      <class name="campaign_test.CreateCampaign">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:campaign_test.CreateCampaign@c8c12ac]" started-at="2025-04-02T00:06:56 IST" name="beforeClass" finished-at="2025-04-02T00:06:57 IST" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:campaign_test.CreateCampaign@c8c12ac]" started-at="2025-04-02T00:06:57 IST" name="beforeMethod" finished-at="2025-04-02T00:06:57 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateCampaignTest()[pri:0, instance:campaign_test.CreateCampaign@c8c12ac]" started-at="2025-04-02T00:06:57 IST" name="CreateCampaignTest" finished-at="2025-04-02T00:07:06 IST" duration-ms="9026" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Campaign Banner_6402 added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateCampaignTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:campaign_test.CreateCampaign@c8c12ac]" started-at="2025-04-02T00:07:06 IST" name="afterMethod" finished-at="2025-04-02T00:07:09 IST" duration-ms="3198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:campaign_test.CreateCampaign@c8c12ac]" started-at="2025-04-02T00:07:09 IST" name="beforeMethod" finished-at="2025-04-02T00:07:10 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateCampaignWithDateTest()[pri:0, instance:campaign_test.CreateCampaign@c8c12ac]" started-at="2025-04-02T00:07:10 IST" name="CreateCampaignWithDateTest" finished-at="2025-04-02T00:07:18 IST" duration-ms="8398" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[campaignBanner_1960successfully added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateCampaignWithDateTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:campaign_test.CreateCampaign@c8c12ac]" started-at="2025-04-02T00:07:18 IST" name="afterMethod" finished-at="2025-04-02T00:07:21 IST" duration-ms="3177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:campaign_test.CreateCampaign@c8c12ac]" started-at="2025-04-02T00:07:21 IST" name="afterClass" finished-at="2025-04-02T00:07:22 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- campaign_test.CreateCampaign -->
+      <class name="contact_test.CreateContact">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:contact_test.CreateContact@4550bb58]" started-at="2025-04-02T00:07:41 IST" name="beforeClass" finished-at="2025-04-02T00:07:42 IST" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:contact_test.CreateContact@4550bb58]" started-at="2025-04-02T00:07:42 IST" name="beforeMethod" finished-at="2025-04-02T00:07:43 IST" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateContactTest()[pri:0, instance:contact_test.CreateContact@4550bb58]" started-at="2025-04-02T00:07:43 IST" name="CreateContactTest" finished-at="2025-04-02T00:08:06 IST" duration-ms="23253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:contact_test.CreateContact@4550bb58]" started-at="2025-04-02T00:08:06 IST" name="afterMethod" finished-at="2025-04-02T00:08:09 IST" duration-ms="3167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:contact_test.CreateContact@4550bb58]" started-at="2025-04-02T00:08:09 IST" name="afterClass" finished-at="2025-04-02T00:08:10 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- contact_test.CreateContact -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

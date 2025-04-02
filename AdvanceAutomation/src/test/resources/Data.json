@@ -1,0 +1,7 @@
+{
+"name" :"Smith",
+"id"   :201,
+"branch": "ECE",
+"age": 22,
+"isstudent":true
+}
