@@ -36,7 +36,7 @@ public class AddProduct extends BaseClass {
 	//@Parameters("browser")
 @Test(groups= {"integrationtest"})
 
-	public void AddProductTest(/*String browser*/) throws IOException, InterruptedException {
+	public void CreateProductTest(/*String browser*/) throws IOException, InterruptedException {
 		//PropertyFileUtility propUt=new PropertyFileUtility();
 		ExcelFileUtility exUtil=new ExcelFileUtility();
 		WebDriverUtility webUtil=new WebDriverUtility();
