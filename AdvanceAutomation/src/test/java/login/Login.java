@@ -39,7 +39,7 @@ public class Login extends BaseClass {
 	
 		
 		
-	String expectedURL="http://49.249.28.218:8098/dashboar";
+	String expectedURL="http://49.249.28.218:8098/dashboard";
 	
 	
 	
