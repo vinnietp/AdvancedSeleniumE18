@@ -10,10 +10,10 @@
   <test thread-count="5" name="Test">
     <classes>
      
-      <class name="login.Login"/>
-      <class name="campaign_test.CreateCampaign"/>
-        <class name="product_test.AddProduct"/>
-       <class name="contact_test.CreateContact"/>
+      <class name="login.LoginTest"/>
+      <class name="campaign_test.CreateCampaignTest"/>
+        <class name="product_test.AddProductTest"/>
+       <class name="contact_test.CreateContactTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
