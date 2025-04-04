@@ -27,7 +27,7 @@ import object_repository.DashboardPage;
 import object_repository.LoginPage;
 
 @Listeners(ListenerImp.class)
-public class Login extends BaseClass {
+public class LoginTest extends BaseClass {
 	//private WebDriver driver;
 
 	//@Parameters("browser")

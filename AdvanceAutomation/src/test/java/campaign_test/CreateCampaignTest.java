@@ -36,7 +36,7 @@ import object_repository.DashboardPage;
 import object_repository.LoginPage;
 
 @Listeners(ListenerImp.class)
-public class CreateCampaign extends BaseClass {
+public class CreateCampaignTest extends BaseClass {
 
 	//@Parameters("browser")
 	//@Test(priority=1,invocationCount=2,threadPoolSize=3,groups= {"regresssion"})

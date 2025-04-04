@@ -39,7 +39,7 @@ import object_repository.CreateContactPage;
 import object_repository.DashboardPage;
 import object_repository.LoginPage;
 @Listeners(ListenerImp.class)
-public class CreateContact extends BaseClass 
+public class CreateContactTest extends BaseClass 
 {
 	//@Parameters("browser")
 @Test(groups= {"regresssion"})

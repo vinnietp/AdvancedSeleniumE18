@@ -32,7 +32,7 @@ import object_repository.DashboardPage;
 import object_repository.LoginPage;
 import object_repository.ProductPage;
 @Listeners(ListenerImp.class)
-public class AddProduct extends BaseClass {
+public class AddProductTest extends BaseClass {
 	//@Parameters("browser")
 @Test(groups= {"integrationtest"})
 
